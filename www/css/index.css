@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	-o-object-fit: cover;
+	object-fit: cover;
+	background-size: cover;
+	background-position: center; 
+}
+ul{list-style: none;}
+.jc-fe{justify-content: flex-end;}
+.bgnen{background-color: #00adb5}
+.active{
+	background-color: rgba(0,0,0,.5); 
+	color: #ddd !important;
+}
+@media screen and (max-width: 320px)
+{
+	.logo{
+		width: 45%;
+	}
+	.ca-nhan{
+		padding-top: 13%;
+	}
+	.dai-dien img{
+		width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+	}
+}
